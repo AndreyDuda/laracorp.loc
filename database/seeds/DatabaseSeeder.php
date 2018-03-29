@@ -99,37 +99,37 @@ class DatabaseSeeder extends Seeder
             [
                 [
                     'title'  => 'Главная',
-                    'path'   => 'http://corporate.loc',
+                    'path'   => 'http://laracorp.loc',
                     'parent' => 0
                 ],
                 [
                     'title'  => 'Блог',
-                    'path'   => 'http://corporate.loc/articles',
+                    'path'   => 'http://laracorp.loc/articles',
                     'parent' => 0
                 ],
                 [
                     'title'  => 'Компьютеры',
-                    'path'   => 'http://corporate.loc/articles/cat/computers',
+                    'path'   => 'http://laracorp.loc/articles/cat/computers',
                     'parent' => 2
                 ],
                 [
                     'title'  => 'Интересное',
-                    'path'   => 'http://corporate.loc/articles/cat/iteresting',
+                    'path'   => 'http://laracorp.loc/articles/cat/iteresting',
                     'parent' => 2
                 ],
                 [
                     'title'  => 'Советы',
-                    'path'   => 'http://corporate.loc/articles/cat/soveti',
+                    'path'   => 'http://laracorp.loc/articles/cat/soveti',
                     'parent' => 2
                 ],
                 [
                     'title'  => 'Портфолио',
-                    'path'   => 'http://corporate.loc/portfolios',
+                    'path'   => 'http://laracorp.loc/portfolios',
                     'parent' => 0
                 ],
                 [
                     'title'  => 'Контакты',
-                    'path'   => 'http://corporate.loc/contacts',
+                    'path'   => 'http://laracorp.loc/contacts',
                     'parent' => 0
                 ]
             ]);
@@ -219,7 +219,7 @@ class DatabaseSeeder extends Seeder
             [
                 [
                     'img'   => 'xx.jpg',
-                    'title' => '<h2 style="color:#fff">CORPORATE, MULTIPURPOSE.. <br /><span>PINK RIO</span></h2>',
+                    'title' => '<h2 style="color:#fff">laracorp, MULTIPURPOSE.. <br /><span>PINK RIO</span></h2>',
                     'desc'  => $text
                 ],
                 [
