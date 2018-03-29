@@ -44,17 +44,17 @@
     <!-- CSSs -->
     <link rel="stylesheet" type="text/css" media="all" href="{{ asset(env('THEME')) }}/css/reset.css" /> <!-- RESET STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="all" href="{{ asset(env('THEME')) }}/style.css" /> <!-- MAIN THEME STYLESHEET -->
-    <link rel="stylesheet" id="max-width-1024-css" href="{{ asset(env('THEME')) }}/css/max-width-1024.css" type="text/css" media="screen and (max-width: 1240px)" />
-    <link rel="stylesheet" id="max-width-768-css" href="{{ asset(env('THEME')) }}/css/max-width-768.css" type="text/css" media="screen and (max-width: 987px)" />
-    <link rel="stylesheet" id="max-width-480-css" href="{{ asset(env('THEME')) }}/css/max-width-480.css" type="text/css" media="screen and (max-width: 480px)" />
-    <link rel="stylesheet" id="max-width-320-css" href="{{ asset(env('THEME')) }}/css/max-width-320.css" type="text/css" media="screen and (max-width: 320px)" />
+    <link rel="stylesheet" id="max-width-1024-css"  href="{{ asset(env('THEME')) }}/css/max-width-1024.css" type="text/css" media="screen and (max-width: 1240px)" />
+    <link rel="stylesheet" id="max-width-768-css"   href="{{ asset(env('THEME')) }}/css/max-width-768.css" type="text/css" media="screen and (max-width: 987px)" />
+    <link rel="stylesheet" id="max-width-480-css"   href="{{ asset(env('THEME')) }}/css/max-width-480.css" type="text/css" media="screen and (max-width: 480px)" />
+    <link rel="stylesheet" id="max-width-320-css"   href="{{ asset(env('THEME')) }}/css/max-width-320.css" type="text/css" media="screen and (max-width: 320px)" />
 
     <!-- CSSs Plugin -->
-    <link rel="stylesheet" id="thickbox-css" href="{{ asset(env('THEME')) }}/css/thickbox.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="thickbox-css"        href="{{ asset(env('THEME')) }}/css/thickbox.css" type="text/css" media="all" />
     <link rel="stylesheet" id="styles-minified-css" href="{{ asset(env('THEME')) }}/css/style-minifield.css" type="text/css" media="all" />
-    <link rel="stylesheet" id="buttons" href="{{ asset(env('THEME')) }}/css/buttons.css" type="text/css" media="all" />
-    <link rel="stylesheet" id="cache-custom-css" href="{{ asset(env('THEME')) }}/css/cache-custom.css" type="text/css" media="all" />
-    <link rel="stylesheet" id="custom-css" href="{{ asset(env('THEME')) }}/css/custom.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="buttons"             href="{{ asset(env('THEME')) }}/css/buttons.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="cache-custom-css"    href="{{ asset(env('THEME')) }}/css/cache-custom.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="custom-css"          href="{{ asset(env('THEME')) }}/css/custom.css" type="text/css" media="all" />
 
     <!-- FONTs -->
     <link rel="stylesheet" id="google-fonts-css" href="http://fonts.googleapis.com/css?family=Oswald%7CDroid+Sans%7CPlayfair+Display%7COpen+Sans+Condensed%3A300%7CRokkitt%7CShadows+Into+Light%7CAbel%7CDamion%7CMontez&amp;ver=3.4.2" type="text/css" media="all" />
@@ -96,7 +96,7 @@
 
                 <!-- START LOGO -->
                 <div id="logo" class="group">
-                    <a href="index.html" title="Pink Rio"><img src="images/logo.png" title="Pink Rio" alt="Pink Rio" /></a>
+                    <a href="index.html" title="Pink Rio"><img src="{{ asset(env('THEME')) }}/images/logo.png" title="Pink Rio" alt="Pink Rio" /></a>
                 </div>
                 <!-- END LOGO -->
 
@@ -234,7 +234,7 @@
             });
         </script>
         <div class="mobile-slider">
-            <div class="slider fixed-image inner"><img src="images/slider-cycle/cycle-fixed.jpg" alt="" /></div>
+            <div class="slider fixed-image inner"><img src="{{ asset(env('THEME')) }}/images/slider-cycle/cycle-fixed.jpg" alt="" /></div>
         </div>
 
         <!-- START PRIMARY -->
@@ -249,10 +249,10 @@
 
                             <div class="hentry work group portfolio-sticky portfolio-full-description">
                                 <div class="work-thumbnail">
-                                    <a class="thumb"><img src="images/projects/0081-385x192.jpg" alt="0081" title="0081" /></a>
+                                    <a class="thumb"><img src="{{ asset(env('THEME')) }}/images/projects/0081-385x192.jpg" alt="0081" title="0081" /></a>
                                     <div class="work-overlay">
                                         <h3><a href="project.html">Steep This!</a></h3>
-                                        <p class="work-overlay-categories"><img src="images/categories.png" alt="Categories" /> in: <a href="category.html">Brand Identity</a>, <a href="category.html">Web Design</a></p>
+                                        <p class="work-overlay-categories"><img src="{{ asset(env('THEME')) }}/images/categories.png" alt="Categories" /> in: <a href="category.html">Brand Identity</a>, <a href="category.html">Web Design</a></p>
                                     </div>
                                 </div>
                                 <div class="work-description">
@@ -271,7 +271,7 @@
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0061-175x175.jpg" alt="0061" title="0061" />
+                                            <img src="{{ asset(env('THEME')) }}/images/projects/0061-175x175.jpg" alt="0061" title="0061" />
                                             <div class="overlay">
                                                 <a class="overlay_img" href="images/projects/0061.jpg" rel="lightbox" title=""></a>
                                                 <a class="overlay_project" href="project.html"></a>
@@ -286,7 +286,7 @@
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0071-175x175.jpg" alt="0071" title="0071" />
+                                            <img src="{{ asset(env('THEME')) }}/images/projects/0071-175x175.jpg" alt="0071" title="0071" />
                                             <div class="overlay">
                                                 <a class="overlay_img" href="images/projects/0071.jpg" rel="lightbox" title=""></a>
                                                 <a class="overlay_project" href="project.html"></a>
@@ -301,7 +301,7 @@
                                 <div class="related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/009-175x175.jpg" alt="009" title="009" />
+                                            <img src="{{ asset(env('THEME')) }}/images/projects/009-175x175.jpg" alt="009" title="009" />
                                             <div class="overlay">
                                                 <a class="overlay_img" href="images/projects/009.jpg" rel="lightbox" title=""></a>
                                                 <a class="overlay_project" href="project.html"></a>
@@ -316,7 +316,7 @@
                                 <div class="related_project_last related_project">
                                     <div class="overlay_a related_img">
                                         <div class="overlay_wrapper">
-                                            <img src="images/projects/0011-175x175.jpg" alt="0011" title="0011" />
+                                            <img src="{{ asset(env('THEME')) }}/images/projects/0011-175x175.jpg" alt="0011" title="0011" />
                                             <div class="overlay">
                                                 <a class="overlay_img" href="images/projects/0011.jpg" rel="lightbox" title=""></a>
                                                 <a class="overlay_project" href="project.html"></a>
@@ -345,21 +345,21 @@
                         <h3>From our blog</h3>
                         <div class="recent-post group">
                             <div class="hentry-post group">
-                                <div class="thumb-img"><img src="images/articles/001-55x55.png" alt="001" title="001" /></div>
+                                <div class="thumb-img"><img src="{{ asset(env('THEME')) }}/images/articles/001-55x55.png" alt="001" title="001" /></div>
                                 <div class="text">
                                     <a href="article.html" title="Section shortcodes &amp; sticky posts!" class="title">Section shortcodes &amp; sticky posts!</a>
                                     <p class="post-date">September 24, 2012</p>
                                 </div>
                             </div>
                             <div class="hentry-post group">
-                                <div class="thumb-img"><img src="images/articles/003-55x55.jpg" alt="003" title="003" /></div>
+                                <div class="thumb-img"><img src="{{ asset(env('THEME')) }}/images/articles/003-55x55.jpg" alt="003" title="003" /></div>
                                 <div class="text">
                                     <a href="article.html" title="Nice &amp; Clean. The best for your blog!" class="title">Nice &amp; Clean. The best for your blog!</a>
                                     <p class="post-date">September 24, 2012</p>
                                 </div>
                             </div>
                             <div class="hentry-post group">
-                                <div class="thumb-img"><img src="images/articles/0037-55x55.jpg" alt="0037" title="0037" /></div>
+                                <div class="thumb-img"><img src="{{ asset(env('THEME')) }}/images/articles/0037-55x55.jpg" alt="0037" title="0037" /></div>
                                 <div class="text">
                                     <a href="article.html" title="Another theme by YIThemes!" class="title">Another theme by YIThemes!</a>
                                     <p class="post-date">September 24, 2012</p>
@@ -370,7 +370,7 @@
 
                     <div class="widget-last widget text-image">
                         <h3>Customer support</h3>
-                        <div class="text-image" style="text-align:left"><img src="images/callus.gif" alt="Customer support" /></div>
+                        <div class="text-image" style="text-align:left"><img src="{{ asset(env('THEME')) }}/images/callus.gif" alt="Customer support" /></div>
                         <p>Proin porttitor dolor eu nibh lacinia at ultrices lorem venenatis. Sed volutpat scelerisque vulputate. </p>
                     </div>
 
